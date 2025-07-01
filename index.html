@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="!scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Unitê</title>
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/custom.css">
+    <link rel="shortcut icon" href="src/img/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-200">
+    <header class="relative">
+        <nav class="absolute inset-x-0 top-0 z-20 flex items-center px-15 py-3 bg-gradient-to-b from-black/90 via-black/70 to-black/20 justify-between">
+            <figure class="flex">
+                <img src="src/img/logo.png" alt="Unitê Pizzaria" class="h-13">
+            </figure> 
+
+            <ul class="flex space-x-6 text-lg font-medium">
+                <li>
+                    <a href="#cardapio" class="text-white hover:text-red-600 transition">Cardápio</a>
+                </li>
+                <li>
+                    <a href="#especiais" class="text-white hover:text-red-600 transition">Especiais</a>
+                </li>
+                <li>
+                    <a href="#bebidas" class="text-white hover:text-red-600 transition">Bebidas</a>
+                </li>
+                <li>
+                    <a href="#contato" class="text-white hover:text-red-600 transition">Contato</a>
+                </li>
+            </ul>
+            <ul class="flex space-x-6 text-lg font-medium">
+                <li>
+                    <a href="" class="flex items-center gap-2 text-white hover:text-green-500 transition">
+                        <ion-icon name="logo-whatsapp" class="w-7 h-7"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="flex items-center gap-2 text-white hover:text-red-600 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998c0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998c0-2.29-2.175-3.293-4.244-3.293m11.328 0c-4.65 0-7.184 4.149-7.184 6.998c0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293m-5.584 12.85l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.91 8.91 0 0 1 .23 14.541H0a9.6 9.6 0 0 0 8.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007l1.08 2.988l1.555-7.623l-7.234-.02Z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="flex items-center gap-2 text-white hover:text-pink-500 transition">
+                        <ion-icon name="logo-instagram" class="w-7 h-7"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="flex items-center gap-2 text-white hover:text-yellow-400 transition">
+                        <ion-icon name="call-outline" class="w-7 h-7"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="relative h-130">
+            <img src="src/img/fundo.jpeg" class="absolute inset-0 w-full h-full object-cover brightness-50" />
+
+            <div class="relative z-10 flex flex-col justify-end items-center text-center h-full text-white">
+                <h1 class="text-4xl text-shadow-lg md:text-6xl font-bold drop-shadow-lg ">Confira nossos sabores!</h1>
+                <p class="mt-4 text-lg text-shadow-md md:text-xl drop-shadow">A melhor pizza do bairro, direto no seu WhatsApp 🍕</p>
+                <a href="#cardapio" class="mt-25 text-white text-8xl text-shadow-lg hover:opacity-80 transition-opacity duration-300 bounce-icon bg-none">
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </a>
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <main class="flex justify-center flex-wrap ">
+        <article id="cardapio" class="mt-10 mx-20 w-full px-6 py-10 flex flex-col rounded-2xl bg-white">
+            <h2 class="text-4xl font-bold mb-8">Pizzas</h2>
+            <section class="flex flex-wrap gap-6 justify-between">             
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/pizzas/pizzaTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Pizza de Calabresa</figcaption>
+                        <p class="font-bold">R$ 47,50</p>
+                    </section>
+
+                </figure>
+          
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/pizzas/pizzaTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Pizza de Calabresa</figcaption>
+                        <p class="font-bold">R$ 47,50</p>
+                    </section>
+
+                </figure>
+           
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/pizzas/pizzaTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Pizza de Calabresa</figcaption>
+                        <p class="font-bold">R$ 47,50</p>
+                    </section>
+
+                </figure>
+           
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/pizzas/pizzaTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Pizza de Calabresa</figcaption>
+                        <p class="font-bold">R$ 47,50</p>
+                    </section>
+
+                </figure>
+             
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/pizzas/pizzaTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Pizza de Calabresa</figcaption>
+                        <p class="font-bold">R$ 47,50</p>
+                    </section>
+
+                </figure>
+            </section>
+        </article>
+
+        <article id="bebidas" class="mt-10 mx-20 w-full px-6 py-10 flex flex-col rounded-2xl bg-white">
+            <h2 class="text-4xl font-bold mb-8">Bebidas</h2>
+            <section class="flex flex-wrap gap-6 justify-between">             
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/bebidas/refriTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Itubaína 1,5L</figcaption>
+                        <p class="font-bold">R$ 17,50</p>
+                    </section>
+                </figure>
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/bebidas/refriTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Itubaína 1,5L</figcaption>
+                        <p class="font-bold">R$ 17,50</p>
+                    </section>
+                </figure>
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/bebidas/refriTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Itubaína 1,5L</figcaption>
+                        <p class="font-bold">R$ 17,50</p>
+                    </section>
+                </figure>
+                <figure class="flex flex-grow basis-[40%] max-w-[48%] shadow-lg border-2 border-gray-100 rounded-2xl bg-white">
+                    <img src="src/img/bebidas/refriTemplate.jpeg" alt="Pizza" class="object-cover w-50 h-50 overflow-hidden rounded-l-2xl">
+                    <section class="flex flex-col justify-center mx-5">
+                        <figcaption class="text-xl">Itubaína 1,5L</figcaption>
+                        <p class="font-bold">R$ 17,50</p>
+                    </section>
+            </section>
+        </article>
+    </main>
+    <footer class="px-10 py-5 text-white mt-10 bg-[#DB021B] flex justify-between">
+        <article class="flex items-center">
+            <img src="src/img/favicon/favicon.png" alt="" class="w-20 h-20">
+            <p class="ml-2 text-2xl">&copy Unitê</p>
+        </article>
+<article id="contato" class="flex gap-7 border-l pl-6">
+  <!-- Contato -->
+  <ul class="flex flex-col h-40 space-y-2">
+    <h2 class="text-xl">Contato</h2>
+    <li class="flex items-center">
+      <ion-icon name="call-outline" class="w-5 h-5 mr-2"></ion-icon>
+      (11) 2301-2000
+    </li>
+    <li class="flex items-center">
+      <ion-icon name="logo-whatsapp" class="w-6 h-6 mr-2"></ion-icon>
+      (11) 2301-2000
+    </li>
+    <!-- Botões alinhados ao fim -->
+    <li class="mt-auto flex gap-2">
+      <a href="#" class="p-1 flex items-center justify-center border rounded-md">
+        <ion-icon name="call-outline" class="w-4 h-4 mr-1"></ion-icon> Ligar
+      </a>
+      <a href="#" class="p-1 flex items-center justify-center border rounded-md">
+        <ion-icon name="copy-outline" class="w-4 h-4 mr-1"></ion-icon> Copiar
+      </a>
+    </li>
+  </ul>
+
+  <!-- Endereço -->
+  <ul class="flex flex-col h-40 space-y-2">
+    <h2 class="text-xl">Endereço</h2>
+    <li>Rua Bucuiutuba, 12 - Vila Margarida</li>
+    <li>São Paulo, SP</li>
+    <li>03276-010</li>
+    <li class="mt-auto flex">
+      <a href="#" class="p-1 flex items-center justify-center border rounded-md">
+        <ion-icon name="call-outline" class="w-4 h-4 mr-1"></ion-icon> Ligar
+      </a>
+    </li>
+  </ul>
+
+  <!-- Horário (sem botão, pode ficar como está) -->
+  <ul class="flex flex-col h-40 space-y-2">
+    <h2 class="text-xl">Horário de funcionamento</h2>
+    <li class="font-bold">Segunda a Sábado</li>
+    <li>Das 19:00 às 22:00</li>
+  </ul>
+</article>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
