@@ -65,7 +65,6 @@
                 <a href="#cardapio" class="mt-25 text-white text-8xl text-shadow-lg hover:opacity-80 transition-opacity duration-300 bounce-icon bg-none">
                     <ion-icon name="chevron-down-outline"></ion-icon>
                 </a>
-                </a>
             </div>
         </section>
     </header>
@@ -156,54 +155,51 @@
         </article>
     </main>
 
-    <footer class="px-10 py-5 text-white mt-10 bg-[#DB021B] flex flex-wrap lg:flex-nowrap">
-        <article class="w-full lg:w-auto flex items-center justify-center lg:justify-start mb-6 lg:mb-0 lg:mr-30">
-            <img src="src/img/favicon/favicon.png" alt="" class="w-60 h-60 lg:w-40 lg:h-40">
-            <p class="ml-2 text-base hidden lg:block lg:text-4xl">&copy; Unitê</p>
+    <footer class="flex-col wrap flex sm:items-spread sm:py-10 sm:flex-row md:px-10 md:py-5 text-white mt-10 bg-[#DB021B]">
+        <article class="flex flex-2 flex-col p-3 mr-3 sm:mr-0 xl:flex-row xl:justify-normal flex-wrap items-center justify-center">
+            <img src="src/img/favicon/favicon.png" alt="logo" class="w-40 h-40 shadow-lg block">
+            <p class="text-3xl pt-3 thicc:text-5xl thicc:pl-2 thicc:pt-0 whitespace-nowrap">&copy; Unitê</p>
         </article>
+        <article id="contato" class="flex flex-3 border-l px-6 mt-10 sm:mt-0">
+            <section class="flex xl:flex-row w-full flex-col gap-5 thicc:justify-normal thicc:gap-15">
+                <ul class="flex flex-col  ">
+                    <h2 class="text-2xl">Contato</h2>
+                    <li class="flex items-center">
+                        <ion-icon name="call-outline" class="w-5 h-5 mr-2"></ion-icon> (11) 2301-2000
+                    </li>
+                    <li class="flex items-center">
+                        <ion-icon name="logo-whatsapp" class="w-6 h-6 mr-2"></ion-icon> (11) 2301-2000
+                    </li>
+                    <li class="mt-auto flex gap-5">
+                        <a href="#" class="p-1 flex items-center justify-center border rounded-md">
+                            <ion-icon name="call-outline" class="w-4 h-4 mr-1"></ion-icon> Ligar
+                        </a>
+                        <a href="#" class="p-1 flex items-center justify-center border rounded-md">
+                            <ion-icon name="logo-whatsapp" class="w-4 h-4 mr-1"></ion-icon> Conversar
+                        </a>
+                    </li>
+                </ul>
 
-        <article id="contato" class="w-full lg:w-auto flex lg:border-l lg:px-6">
-            <section class="flex flex-col lg:flex-row lg:gap-20 justify-between items-stretch w-full">
-            <ul class="flex flex-col lg:border-none flex-1 space-y-2 border-b py-5 lg:border-b-0 lg:py-0">
-                <h2 class="text-2xl">Contato</h2>
-                <li class="flex items-center">
-                <ion-icon name="call-outline" class="w-5 h-5 mr-2"></ion-icon>
-                (11) 2301-2000
-                </li>
-                <li class="flex items-center">
-                <ion-icon name="logo-whatsapp" class="w-6 h-6 mr-2"></ion-icon>
-                (11) 2301-2000
-                </li>
-                <li class="mt-auto flex gap-5">
-                <a href="#" class="p-1 flex items-center justify-center border rounded-md">
-                    <ion-icon name="call-outline" class="w-4 h-4 mr-1"></ion-icon> Ligar
-                </a>
-                <a href="#" class="p-1 flex items-center justify-center border rounded-md">
-                    <ion-icon name="logo-whatsapp" class="w-4 h-4 mr-1"></ion-icon> Conversar
-                </a>
-                </li>
-            </ul>
+                <ul class="flex flex-col ">
+                    <h2 class="text-2xl">Endereço</h2>
+                    <li>Rua Bucuiutuba, 12 - Vila Margarida</li>
+                    <li>São Paulo, SP</li>
+                    <li>03276-010</li>
+                    <li class="mt-3 gap-2 sm:mt-auto flex sm:gap-5 flex-wrap w-fit sm:flex-row sm:flex-nowrap">
+                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
+                            <ion-icon name="copy-outline" class="w-5 h-5 mr-1"></ion-icon> Copiar Endereço
+                        </a>
+                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
+                            <ion-icon name="location-outline" class="w-5 h-5 mr-1"></ion-icon> Rotas Google Map
+                        </a>
+                    </li>
+                </ul>
 
-            <ul class="flex flex-col lg:border-none flex-1 space-y-2 border-b py-5 lg:border-b-0 lg:py-0">
-                <h2 class="text-2xl">Endereço</h2>
-                <li>Rua Bucuiutuba, 12 - Vila Margarida</li>
-                <li>São Paulo, SP</li>
-                <li>03276-010</li>
-                <li class="mt-auto flex gap-5">
-                <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
-                    <ion-icon name="copy-outline" class="w-5 h-5 mr-1"></ion-icon> Copiar Endereço
-                </a>
-                <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
-                    <ion-icon name="location-outline" class="w-5 h-5 mr-1"></ion-icon> Rotas Google Map
-                </a>
-                </li>
-            </ul>
-
-            <ul class="flex flex-col flex-1 space-y-2 py-5 lg:py-0 last:border-b-0">
-                <h2 class="text-2xl whitespace-nowrap">Horário de funcionamento</h2>
-                <li class="font-bold">Segunda a Sábado</li>
-                <li>Das 19:00 às 22:00</li>
-            </ul>
+                <ul class="flex flex-col last:border-b-0">
+                    <h2 class="text-2xl">Horário de funcionamento</h2>
+                    <li class="font-bold mt-2">Segunda a Sábado</li>
+                    <li>Das 19:00 às 22:00</li>
+                </ul>
             </section>
         </article>
     </footer>
