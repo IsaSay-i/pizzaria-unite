@@ -3,60 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Unitê</title>
+    <title>Pizzaria</title>
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="src/custom.css">
-    <link rel="shortcut icon" href="src/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/favicon/favicon.png" type="image/x-icon">
 </head>
 <body class="bg-gray-200">
     <header class="relative">
         <nav class="absolute inset-x-0 top-0 z-20 flex items-center px-15 py-3 bg-gradient-to-b from-black/90 via-black/70 to-black/20 justify-between">
-            <figure class="flex">
-                <img src="src/img/logo.png" alt="Unitê Pizzaria" class="h-13">
-            </figure> 
+            <figure class="flex ml-10 items-center gap-1.5 text-lime-400 text-lg font-bold lim:flex-1">
+                <img src="src/img/logoTemplate.png" alt="logo" class="h-13"> Pizzaria
+            </figure>
 
-            <ul class="flex space-x-6 text-lg font-medium">
-                <li>
-                    <a href="#cardapio" class="text-white hover:text-red-600 transition">Cardápio</a>
-                </li>
-                <li>
-                    <a href="#especiais" class="text-white hover:text-red-600 transition">Esfihas</a>
-                </li>
-                <li>
-                    <a href="#bebidas" class="text-white hover:text-red-600 transition">Bebidas</a>
-                </li>
-                <li>
-                    <a href="#contato" class="text-white hover:text-red-600 transition">Contato</a>
-                </li>
-                <li>
-                    <a href="#sobrenos" class="text-white hover:text-red-600 transition">Sobre nós</a>
-                </li>
-            </ul>
-            <ul class="flex space-x-6 text-lg font-medium">
-                <li>
-                    <a href="https://wa.me/5511975708835?text=Olá,%20eu%20gostaria%20de%20fazer%20um%20pedido!" target="_blank" class="flex items-center gap-2 text-white hover:text-green-500 transition">
-                        <ion-icon name="logo-whatsapp" class="w-7 h-7"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="flex items-center gap-2 text-white hover:text-yellow-400 transition">
-                        <ion-icon name="call-outline" class="w-7 h-7"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="flex items-center gap-2 text-white hover:text-red-600 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M8.428 1.67c-4.65 0-7.184 4.149-7.184 6.998c0 2.294 2.2 3.299 4.25 3.299l-.006-.006c4.244 0 7.184-3.854 7.184-6.998c0-2.29-2.175-3.293-4.244-3.293m11.328 0c-4.65 0-7.184 4.149-7.184 6.998c0 2.294 2.2 3.299 4.25 3.299l-.006-.006C21.061 11.96 24 8.107 24 4.963c0-2.29-2.18-3.293-4.244-3.293m-5.584 12.85l2.435 1.834c-2.17 2.07-6.124 3.525-9.353 3.17A8.91 8.91 0 0 1 .23 14.541H0a9.6 9.6 0 0 0 8.828 7.758c3.814.24 7.323-.905 9.947-3.13l-.004.007l1.08 2.988l1.555-7.623l-7.234-.02Z"/>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="flex items-center gap-2 text-white hover:text-pink-500 transition">
-                        <ion-icon name="logo-instagram" class="w-7 h-7"></ion-icon>
-                    </a>
-                </li>
-            </ul>
+            <button class="text-white flex items-center gap-2 cursor-pointer lim:hidden">
+                <ion-icon name="menu" class="h-7 w-7 text-white border p-0.5 rounded-sm hover:text-gray-400"></ion-icon> Menu
+            </button>
+
+            <div class="flex hidden lim:flex-row lim:flex lim:justify-between lim:flex-2">
+                <ul class="flex space-x-6 text-lg font-medium">
+                    <li>
+                        <a href="#cardapio" class="text-white hover:text-red-600 transition">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="#bebidas" class="text-white hover:text-red-600 transition">Especiais</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="text-white hover:text-red-600 transition">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#sobrenos" class="text-white hover:text-red-600 transition">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="flex space-x-6 text-lg font-medium">
+                    <li>
+                        <a href="" target="_blank" class="flex items-center gap-2 text-white hover:text-green-500 transition">
+                            <ion-icon name="logo-whatsapp" class="w-7 h-7"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="flex items-center gap-2 text-white hover:text-yellow-400 transition">
+                            <ion-icon name="call-outline" class="w-7 h-7"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="flex items-center gap-2 text-white hover:text-red-600 transition">
+                            <ion-icon name="logo-facebook" class="w-7 h-7"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="flex items-center gap-2 text-white hover:text-pink-500 transition">
+                            <ion-icon name="logo-instagram" class="w-7 h-7"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <section class="relative h-130">
@@ -64,7 +65,7 @@
 
             <div class="relative z-10 flex flex-col justify-end items-center text-center h-full text-white">
                 <h1 class="text-4xl text-shadow-lg md:text-6xl font-bold drop-shadow-lg ">Confira nossos sabores!</h1>
-                <p class="mt-4 text-lg text-shadow-lg md:text-xl drop-shadow">A melhor pizza do bairro, direto no seu WhatsApp 🍕</p>
+                <p class="mt-4 px-2 text-lg text-shadow-lg md:text-xl drop-shadow">A melhor pizza do bairro, direto no seu WhatsApp 🍕</p>
                 <a href="#cardapio" class="mt-25 text-white text-8xl drop-shadow-xl/80 hover:opacity-80 transition-opacity duration-300 bounce-icon bg-none">
                     <ion-icon name="chevron-down-outline"></ion-icon>
                 </a>
@@ -158,22 +159,22 @@
         </article>
     </main>
 
-    <footer class="flex-col wrap flex sm:items-spread sm:py-10 sm:flex-row md:px-10 md:py-5 text-white mt-10 bg-[#DB021B]">
-        <article class="flex flex-2 flex-col p-3 mr-3 sm:mr-0 xl:flex-row xl:justify-normal flex-wrap items-center justify-center">
-            <img src="src/img/favicon/favicon.png" alt="logo" class="w-40 h-40 shadow-lg block">
-            <p class="text-3xl pt-3 thicc:text-4xl thicc:pl-2 thicc:pt-0 whitespace-nowrap">&copy; 2025, Unitê</p>
-        </article>
-        <article id="contato" class="flex flex-3 border-l px-6 mt-10 sm:mt-0">
+    <footer class="flex-col wrap flex sm:items-spread sm:py-10 sm2:flex-row md:px-10 md:py-5 text-white mt-10 bg-[#DB021B]">
+        <aside class="flex flex-2 flex-col flex-wrap items-center justify-center p-3 mr-3 sm:mr-0 xl:flex-row thicc:justify-normal ">
+            <img src="src/img/logoTemplate.png" alt="logo" class="w-40 h-40 drop-shadow-lg">
+            <p class="text-3xl pt-3 thicc:text-4xl thicc:pl-2 thicc:pt-0 whitespace-nowrap">&copy; 2025 | IsaSay-i</p>
+        </aside>
+        <article id="contato" class="flex flex-col flex-3 border-l px-6 mt-10 sm:mt-0 md:pt-5">
             <section class="flex xl:flex-row w-full flex-col gap-5 thicc:justify-normal thicc:gap-15">
-                <ul class="flex flex-col  ">
+                <ul class="flex flex-col max-h-42">
                     <h2 class="text-2xl">Contato</h2>
-                    <li class="flex items-center">
+                    <li class="flex items-center mt-1">
                         <ion-icon name="call-outline" class="w-5 h-5 mr-2"></ion-icon> (11) 2301-2000
                     </li>
                     <li class="flex items-center">
                         <ion-icon name="logo-whatsapp" class="w-6 h-6 mr-2"></ion-icon> (11) 2301-2000
                     </li>
-                    <li class="mt-auto flex gap-5">
+                    <li class="mt-3 lg:mt-auto flex gap-5">
                         <a href="#" class="p-1 flex items-center justify-center border rounded-md">
                             <ion-icon name="call-outline" class="w-4 h-4 mr-1"></ion-icon> Ligar
                         </a>
@@ -183,27 +184,37 @@
                     </li>
                 </ul>
 
-                <ul class="flex flex-col ">
+                <ul class="flex flex-col md:max-h-42">
                     <h2 class="text-2xl">Endereço</h2>
-                    <li>Rua Bucuiutuba, 12 - Vila Margarida</li>
-                    <li>São Paulo, SP</li>
-                    <li>03276-010</li>
-                    <li class="mt-3 gap-2 sm:mt-auto flex sm:gap-5 flex-col flex-wrap w-fit sm:flex-row sm:flex-nowrap">
-                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
+                    <li class="mt-1">Rua Sésamo, 123 - Vila Pannus Pupa</li>
+                    <li>Cidade, Estado</li>
+                    <li>01234-567</li>
+                    <li class="mt-3 gap-2 lg:mt-auto flex md:gap-5 flex-col flex-wrap md:flex-row md:flex-nowrap">
+                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md w-fit">
                             <ion-icon name="copy-outline" class="w-5 h-5 mr-1"></ion-icon> Copiar Endereço
                         </a>
-                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md">
+                        <a href="#" class="whitespace-nowrap p-1 flex items-center justify-center border rounded-md w-fit">
                             <ion-icon name="location-outline" class="w-5 h-5 mr-1"></ion-icon> Rotas Google Map
                         </a>
                     </li>
                 </ul>
 
-                <ul class="flex flex-col last:border-b-0">
+                <ul class="flex flex-col last:border-b-0 max-h-42">
                     <h2 class="text-2xl">Horário de funcionamento</h2>
                     <li class="font-bold mt-2">Segunda a Sábado</li>
                     <li>Das 19:00 às 22:00</li>
                 </ul>
             </section>
+
+            <nav class="flex md:flex-row my-auto pt-4">
+                <ion-icon name="menu" class="h-5 w-5 border p-0.5 rounded-sm mr-2 hidden sm2:block"></ion-icon>
+                <nav class="underline flex gap-3 flex-col sm2:flex-row">
+                    <a href="" class="transition duration-300 hover:scale-105">Sobre nós</a>
+                    <a href="" class="transition duration-300 hover:scale-105">Cardápio</a>
+                    <a href="" class="transition duration-300 hover:scale-105">Especiais</a>
+                    <a href="" class="transition duration-300 hover:scale-105">Bebidas</a>
+                </nav>
+            </nav>
         </article>
     </footer>
 
